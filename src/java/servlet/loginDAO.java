@@ -63,7 +63,7 @@ public class loginDAO {
     public static void main(String args[]) throws ClassNotFoundException, SQLException
     {
         loginDAO l = new loginDAO();
-        String result = l.checkInfo("manish", "asdfasdf");
+        String result = l.addData("manish", "asdfasdf","manish123");
         System.out.println(result);
     }
     
